@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Negocio Web AOOM </title>
+ <style>
+
+  * {
+  box-sizing: border-box;}
+
+  body {
+  font-family: Arial, Helvetica, sans-serif;}
+
+  header { display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 110, 200);
+  	padding: 30px;
+  	text-align: center;
+  	font-size: 35px;
+  	color: white;}
+
+  footer { display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(0, 110, 200);
+	color: white;
+	font-size: 150%;
+	width: 100%;}
+  
+  aside { display: flex;
+	background-color: rgb(0, 160, 230);
+	font-size: 130%;
+	float: left;
+        width: 20%;
+	min-height: 100vh;
+	gap:20px;
+	padding: 20px;}
+
+  a { color: white}
+  
+  article { background-color: rgb(240, 240, 240);}
+
+  p { display:flex;
+	font-size: 110%;
+	align-items:stretch;
+	gap:20px;
+	padding: 20px;}
+
+  .hola { display:flex;
+	flex-direction: column;}
+
+ .cen { display:flex;
+	text-align:center;
+	justify-content:center;}
+
+ .labcen { display:flex;
+	flex-direction:column;
+	text-align:center;
+	align-items: center;
+	justify-content: center;
+	gap: 8px; }
+
+ .bt { display:flex;
+	flex-direction:column;
+	text-align:center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	padding: 10px 18px; }
+
+ .formu { background-color: rgb(240, 240, 240);
+  	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 16px}
+
+ </style>
+</head>
+
+<body>
+  <div>
+	<header>
+	<img src="dentistadentaglat.png" style="max-width: 100%;">
+	</header>
+
+	<aside>
+	<section>
+	<nav>
+	<ul>
+	 <li> <a href = "P2-NegocioWeb_AOOM_0605.html#"> Inicio </a></li>
+	<br>
+	 <li> <a href = "servicio_AOOM.html#"> Servicios </a></li>
+	<br>
+	 <li> <a href = "especialistas_AOOM.html#"> Especialistas </a></li>
+	<br>
+	 <li> <a href = "ubicontacto_AOOM.html#"> Contacto y ubicación </a></li>
+	<br>
+	 <li> <a href = "basedatos_AOOM.html#"> Registro y Control Clínico </a></li>
+	<br>
+	 <li> <a href = "pacientes_AOOM.html#"> Pacientes </a></li>
+	</ul>
+	</nav>
+	</section>
+	</aside>
+
+	<article>
+	 <h1 class= "cen"> Formulario de Registro </h1>
+	 <p class= "cen"> Rellene los espacios vacíos con los datos del paciente </p>
+	</article>
+
+<div class="formu">	
+  </div>
+ <div class="labcen">
+  <label> ID del Paciente: </label>
+  <input type="text" name="id_paciente" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Nombre: </label>
+  <input type="text" name="nombre_paciente" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Edad: </label>
+  <input type="number" name="edad_paciente" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Género: </label>
+  <input type="text" name="género_paciente" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Fecha Registro: </label>
+  <input type="text" name="fecha_registro" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Domicilio actual: </label>
+  <input type="text" name="dom_actual" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Ocupación: </label>
+  <input type="text" name="ocupacion" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Tutor: </label>
+  <input type="text" name="tutor" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Teléfono: </label>
+  <input type="text" name="tel" required>	
+ </div>
+
+ <div class="labcen">
+  <label> Antecedentes/Notas: </label>
+  <input type="text" name="notas" required>	
+ </div>
+
+<div class="bt">
+ <button type="submit"> Aceptar </button>
+</div>
+	<footer>
+	 <h3> Ogaz Maravillo Angel Omar <br> 24308051280605 <br> 4°I <br> Programación <h3>
+
+
+</body>
+</html>
