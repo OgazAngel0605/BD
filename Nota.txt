@@ -1,0 +1,3 @@
+En el archivo se muestran más de 4 opciones de archivos a elegir dentro del aside.
+
+Únicamente Funcionan los 4 archivos publicados en este repositorio.
